@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Oracle of Flowers — Alexandra Gerbeau</title>
+  <meta name="description" content="Oracle of Flowers : un oracle de cartes illustrées et ses objets dérivés, entre fleurs, esotérisme et décoration.">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<main class="section blanc oracle" id="oracle">
+
+  <!-- filets : ligne horizontale en haut + double filet de chaque côté (comme la maquette) -->
+  <span class="line h ov" style="left:0;top:58;width:1728"></span>
+  <span class="line v ov" style="left:95;top:0;height:7068"></span>
+  <span class="line v ov" style="left:122;top:0;height:7068"></span>
+  <span class="line v ov" style="left:1606;top:0;height:7068"></span>
+  <span class="line v ov" style="left:1633;top:0;height:7068"></span>
+
+  <a class="item drop d1 logo" style="left:124;top:58;width:165" href="index.html" aria-label="Accueil"><img src="img/logo-noir.png" alt="Logo papillon"></a>
+  <h1 class="item drop d2" style="left:676;top:138;width:376"><img src="img/oracle/titre.png" alt="Oracle of Flowers"></h1>
+
+  <!-- 1. Image d'ouverture -->
+  <div class="item shot" style="left:0;top:368;width:1728;height:1028"><img src="img/oracle/hero.webp" alt="Cartes Oracle of Flowers dans l’herbe"></div>
+
+  <!-- 2. Carrousel de cartes -->
+  <div class="carousel" id="cartes" aria-label="Cartes Oracle of Flowers">
+    <img class="card" src="img/oracle/carte-c12.webp" alt="Carte Hibiscus">
+    <img class="card" src="img/oracle/carte-lys.webp" alt="Carte Iris">
+    <img class="card" src="img/oracle/carte-rose.webp" alt="Carte Rose">
+    <img class="card" src="img/oracle/carte-c06.webp" alt="Carte Chrysanthème">
+    <img class="card" src="img/oracle/carte-c04.webp" alt="Carte Lotus">
+    <img class="card" src="img/oracle/carte-t30.webp" alt="Carte Jasmin">
+    <img class="card" src="img/oracle/carte-c13.webp" alt="Carte Hortensia">
+    <img class="card" src="img/oracle/carte-t33.webp" alt="Carte Fleur d’oranger">
+    <button class="arrow prev" style="left:767" aria-label="Carte précédente"><svg viewBox="0 0 24 24"><path d="M15 5l-7 7 7 7"/></svg></button>
+    <button class="arrow next" style="left:891" aria-label="Carte suivante"><svg viewBox="0 0 24 24"><path d="M9 5l7 7-7 7"/></svg></button>
+  </div>
+
+  <!-- 3. Cinq cartes vertes -->
+  <div class="item shot" style="left:0;top:2225;width:1728;height:1021"><img src="img/oracle/cinq.webp" alt="Cartes Soul Cards, dos vert et or"></div>
+
+  <!-- 4. Soul cards + slider -->
+  <div class="item shot soul" style="left:0;top:3246;width:788;height:760"><img src="img/oracle/soul-cards.png" alt="Soul Cards"></div>
+  <div class="item shot slider" id="slider" style="left:788;top:3246;width:940;height:760">
+    <img class="on" src="img/oracle/box1.webp" alt="Boîte Oracle of Flowers">
+    <img src="img/oracle/box2.webp" alt="Boîte Oracle of Flowers, vue de côté">
+    <img src="img/oracle/dos.webp" alt="Dos de la boîte Oracle of Flowers">
+    <div class="dots" style="left:377;top:697"><button class="on" aria-label="Face avant"></button><button aria-label="Côté"></button><button aria-label="Dos"></button></div>
+  </div>
+
+  <!-- 5. All of cards -->
+  <div class="item shot" style="left:0;top:4006;width:1728;height:1028"><img src="img/oracle/toutes.webp" alt="All of cards : les huit cartes"></div>
+
+  <!-- 6. Brochures -->
+  <div class="item shot" style="left:0;top:5034;width:864;height:840"><img src="img/oracle/broch1.webp" alt="Livret Oracle of Flowers"></div>
+  <div class="item shot" style="left:864;top:5034;width:864;height:840"><img src="img/oracle/broch2.webp" alt="Livret ouvert"></div>
+
+  <!-- 7. Dérivés : bougie / sac / poster, 4 univers -->
+  <div class="item shot" style="left:0;top:5874;width:1035;height:652"><img id="m-bougie" src="img/oracle/rose-bougie.webp" alt="Bougie et boîte"></div>
+  <div class="item shot" style="left:0;top:6526;width:512;height:542"><img id="m-sac" src="img/oracle/rose-sac.webp" alt="Sac en tissu"></div>
+  <div class="item shot" style="left:512;top:6526;width:523;height:542"><img id="m-poster" src="img/oracle/rose-poster.webp" alt="Poster encadré"></div>
+
+  <div class="themes" id="themes">
+    <button class="item on" data-theme="rose" style="left:1208;top:5976;width:298" aria-label="Esotérisme"><img src="img/oracle/btn-esoterisme.png" alt="Esotérisme"></button>
+    <button class="item" data-theme="rouge" style="left:1208;top:6112;width:298" aria-label="Décoration"><img src="img/oracle/btn-decoration.png" alt="Décoration"></button>
+    <button class="item" data-theme="beige" style="left:1208;top:6249;width:298" aria-label="Nourriture"><img src="img/oracle/btn-nourriture.png" alt="Nourriture"></button>
+    <button class="item" data-theme="noir" style="left:1208;top:6385;width:298" aria-label="Parfum"><img src="img/oracle/btn-parfum.png" alt="Parfum"></button>
+  </div>
+
+  <!-- 8. Context / Concept (même mise en page que les autres pages) -->
+  <span class="line v" style="left:165;top:7222;height:880"></span>
+  <span class="line v" style="left:866;top:7222;height:880"></span>
+  <span class="line v" style="left:1568;top:7222;height:880"></span>
+  <span class="line h" style="left:0;top:7322;width:533"></span>
+  <span class="line h" style="left:1265;top:7510;width:463"></span>
+
+  <h2 class="item crop-title" style="left:162;top:7337;width:404;height:133"><img src="img/context-noir.png" alt="Context"></h2>
+  <h2 class="item crop-title" style="left:1072;top:7337;width:398;height:133"><img src="img/concept-noir.png" alt="Concept"></h2>
+
+  <div class="item t-body oracle-text" style="left:221;top:7593;width:571">
+    <p>Flowers are present everywhere. In graphic design, architecture, metaphors in literature, and many other fields.</p>
+    <p>The project explores the relationship between plants, gardens and human life, considering the garden as a metaphor for personal growth, well-being and the human experience. It invites designers to explore plants in all their dimensions: their shapes, colours, sizes, textures, scents, tastes, botanical names, uses and cultural associations. The objective is to create an eye-catching and informative outcome that celebrates the diversity of plants and the richness of gardens in our lives, using print, digital or combined media. The final outcome should be primarily typographic, demonstrating strong typographic skills and a clear creative concept. The project also involves defining a specific context and target audience, developing a coherent communication strategy, and conducting extensive research through visual references, sketches, material experiments and the exploration of different creative directions. Ultimately, it aims to develop an understanding of communication design as a systematic process, from identifying users’ needs to communicating and promoting a product or service, while maintaining consistency across all design elements.</p>
+  </div>
+  <div class="item t-body oracle-text" style="left:928;top:7593;width:564">
+    <p>I wanted to create an object that would speak to those who are already aware of the place flowers hold in our lives, while also incorporating everyday themes to help others become aware of it.</p>
+    <p>To make it accessible to everyone, I chose to create an oracle, which is similar to a tarot but with fewer rules. This allowed me greater creative freedom. Thanks to the card-drawing system, which is unique to each person, everyone can identify with it and create their own garden around esotericism, food, fragrance and decoration.</p>
+    <p>Unlike packaging or painting, I wanted to actively involve people. I believe it is a more effective way to raise awareness when there is interaction between the consumer and the product.</p>
+    <p>Alongside this, I imagined other objects connected to the themes of the card game. This is a dimension of the brand that can evolve long-term. This led to the creation of large-format cards designed to be framed as decorative objects.</p>
+  </div>
+</main>
+
+<footer class="section footer" id="contact">
+  <a class="item" style="left:0;top:0;width:186" href="index.html" aria-label="Accueil"><img src="img/logo-blanc.png" alt="Logo papillon"></a>
+  <img class="item f-name" style="left:347;top:63;width:475" src="img/prenom.png" alt="Alexandra Gerbeau">
+  <p class="item f-sub" style="left:351;top:182;width:884">Brand designer | Stratégie &amp; visual identity | Illustrator<br>Votre papillon créatif</p>
+  <a class="item f-tel" style="left:1414;top:224;width:260" href="tel:+33782835884">07 82 83 58 84</a>
+</footer>
+
+<script src="js/main.js"></script>
+<script src="js/oracle.js"></script>
+</body>
+</html>
